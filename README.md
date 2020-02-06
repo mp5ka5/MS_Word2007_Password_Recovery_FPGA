@@ -7,7 +7,7 @@ Performance
 Intel i7-7700HQ @2.8GHz  :   **108** pwds/sec/core<br/>
 Intel Cyclone V SoC FPGA : **6,400** pwds/sec/device<br/> -->
 
-| Device | Frequency | <td colspan=2>Throughput |
+| Device | Frequency | Throughput ||
 | :---: | ---: | ---: | ---: |
 | ARM Cortex-A9 | 800MHz | **12** | pwds/sec/core |
 | Intel i7-7700HQ | 2.8GHz | **108** | pwds/sec/core |
