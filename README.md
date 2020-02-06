@@ -3,8 +3,7 @@ This design accelerates password recovery process using Intel Cyclone V SoC FPGA
 
 Performance
 ------
-| :---: | :---: | :---:|
-| Device | Frequency | Throughput |
+| Device | Frequency | Throughput      |
 | :---: | ---: | ---:|
 | ARM Cortex-A9 | 800MHz | **12** pwds/sec/core |
 | Intel i7-7700HQ | 2.8GHz | **108** pwds/sec/core |
