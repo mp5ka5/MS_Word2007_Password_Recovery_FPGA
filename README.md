@@ -3,7 +3,7 @@ This design accelerates password recovery process using Intel Cyclone V SoC FPGA
 
 The overall performance is 6,400 passwords/sec, able to complete 6-digit password searching in less than 4 minutes. The performance per core of i7 is quite low showing the verification process of MS Word is very time consuming. Some methods like using Intel icc compiler or applying SSE/AVX technology can give some improvement. Commercial tools provide 553 pwds/sec on Intel Xeon E5-2603(4 cores \@1.8GHz) or 940 pwds/sec on Intel i3-2100(2 cores \@3.1GHz) with highly optimized code. 
 
-This program recovers only digit passwords up to 6 characters. The test file *test_978999.docx* is protected with password *978999*. Apparently the whole design can be easily extended to a full version to accept a mixed type of characters as well as long passwords ether from user input or a wordlist file. 
+This program recovers only digit passwords up to 6 characters. The test file *test_978999.docx* is protected with password ```*978999*```. Apparently the whole design can be easily extended to a full version to accept a mixed type of characters as well as long passwords ether from user input or a wordlist file. 
 <br/>
 <br/>
 
