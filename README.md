@@ -9,6 +9,7 @@ Performance
 | Intel i7-7700HQ | 2.8GHz | **108** pwds/sec/core |
 | Intel Cyclone V SoC FPGA | 50MHz | **6,400** pwds/sec/chip |
 
+<br/>
 
 Algorithm
 ------
@@ -19,7 +20,7 @@ Algorithm
 Platform
 ------
 [ARROW SoCKit](https://www.arrow.com/en/products/sockit/arrow-development-tools)
-* Cyclone V SoC 5CSXFC6D6F31C8NES ver.B<br/>
+* Cyclone V SoC 5CSXFC6D6F31C8NES ver.B
 * Dual-core ARM Cortex-A9 (HPS)<br/>
 * 110K Programmable Logic Elements<br/>
 * 5,140 Kbits embedded memory<br/>
