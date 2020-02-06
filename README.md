@@ -38,7 +38,9 @@ HowTo
 2. Copy *pwd_recovery_word2007_6digits* and *test_978999.docx* to home/root/ of the SD card
 3. Boot SoCKit and login
 4. Execute command
-	./pwd_recovery_word2007_6digits test_978999.docx
+```
+./pwd_recovery_word2007_6digits test_978999.docx
+```
 5. The FPGA LED1 lights on indicating a password matching
 6. Press "FPGA RST" button to reset FPGA for next execution
 <br/>
