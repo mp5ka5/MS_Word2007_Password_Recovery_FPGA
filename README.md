@@ -6,7 +6,7 @@ This design accelerates password recovery process using Intel Cyclone V SoC FPGA
 Performance
 ------
 | Device | Frequency | Throughput | Remark |
-| :---: | ---: | ---: | :--- |
+| :---: | ---: | --- | :--- |
 | ARM Cortex-A9 | 800MHz | **12** pwds/sec/core | CPU only |
 | Intel i7-7700HQ | 2.8GHz | **108** pwds/sec/core | CPU only |
 | Intel Cyclone V SoC FPGA | 50MHz | **6,400** pwds/sec/chip | CPU+FPGA |
@@ -31,7 +31,7 @@ Platform
 HowTo
 ------
 1. Copy soc_system.rbf to the FAT32 partition of the SD card for SoCKit
-2. Copy pwd_recovery_word2007_6digits and test_978999.docx to the home/root of the SD card
+2. Copy pwd_recovery_word2007_6digits and test_978999.docx to home/root/ of the SD card
 3. Boot SoCKit and login
 4. Execute "./pwd_recovery_word2007_6digits test_978999.docx"
 <br/>
